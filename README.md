@@ -7,7 +7,7 @@ Requires:
 - Python 3.7.X
 - AppleScript
 - HIDAPI
-- <a href="https://github.com/JnyJny/blynclight">blynclight</a> Python Module
+- <a href="https://github.com/JnyJny/blynclight">blynclight</a> Python Module >= 0.4.7
 
 
 I installed Python3 and HIDAP via Brew.  Then pyhidapi and blynclight via pip3:
