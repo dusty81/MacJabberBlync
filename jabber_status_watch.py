@@ -9,10 +9,10 @@ def signal_handler(signal, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-red, blue, green, yellow, purple = (255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 255, 0), (153,0,255)
+red, blue, green, yellow, purple = (255, 0, 0), (0, 255, 0), (0, 0, 255), (254, 220, 86), (153,0,255)
 Status_Color = {"Available": green, "Away": yellow,"Busy": red,"On a Call": red, "Presenting": red, "In a meeting": red, "Do Not Disturb": purple}
 Status_Flash = {"Available": False, "Away": False,"Busy": False,"On a Call": True, "Presenting": True, "In a meeting": True,"Do Not Disturb": False}
-Status_Flash_Speed = {"Available": False, "Away": False,"Busy": False,"On a Call": "Fast", "Presenting": "Slow", "In a meeting": "Slow", "Do Not Disturb": "Slow"}
+Status_Flash_Speed = {"Available": False, "Away": False,"Busy": False,"On a Call": "Fast", "Presenting": "Slow", "In a meeting": "Slow", "Do Not Disturb": False}
 
 Previous_Jabber_Status = "NONE"
 Current_Jabber_Status = ""
