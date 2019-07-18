@@ -19,11 +19,12 @@ I installed Python3 and HIDAP via Brew and then blynclight via pip3:
 How to run:
 - Ensure that Jabber is open and running and the main Jabber window is open
 - In the MacOS terminal execute, cd <DIR TO SCRIPT>; python3 ./jabber_status_watch.py
+- (Optional) - Add '-v' to see the output and errors.
 - <CONTROL+C> to exit
 
 TODOs:
-- Add verbose mode to enable / suppress output
-- Add some command line options
+- ~~Add verbose mode to enable / suppress output~~
+- ~~Add some command line options~~
 - Make it easier to run / configure for end-users
 - Figure out a wrapper to run at login
 - Check to ensure Jabber is running prior to checking for Status
