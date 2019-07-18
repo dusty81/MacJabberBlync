@@ -104,7 +104,7 @@ while (True):
                         print ("Light Status:\n",str(light))
                 except TypeError:
                     if verbosity == True:
-                        print ("Jabber Window in the background space, so we can't pull the status. Continuing.")
+                        print ("Jabber Window in the background space or Jabber isn't running, so we can't pull the status...")
                     pass
     except OSError as Error:
         if verbosity == True:

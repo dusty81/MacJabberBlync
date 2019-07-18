@@ -27,5 +27,5 @@ TODOs:
 - ~~Add some command line options~~
 - Make it easier to run / configure for end-users
 - Figure out a wrapper to run at login
-- Check to ensure Jabber is running prior to checking for Status
+- ~~Check to ensure Jabber is running prior to checking for Status~~
 - 100 other things to learn on...
